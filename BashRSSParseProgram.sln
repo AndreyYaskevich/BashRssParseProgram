@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BashRSSParseProgram", "BashRSSParseProgram\BashRSSParseProgram.csproj", "{E4F76F4D-396F-4A57-866F-2B5256514897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BashQuotesProgram.Android", "BashQuotesProgram\BashQuotesProgram.Android\BashQuotesProgram.Android.csproj", "{CE65777A-2D85-4D68-8013-C6DE14AC1441}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BashQuotesProgram", "BashQuotesProgram\BashQuotesProgram\BashQuotesProgram.shproj", "{6A7F3907-0E3E-4646-A978-D2BCBFCF615B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BashQuotesProgram\BashQuotesProgram\BashQuotesProgram.projitems*{6a7f3907-0e3e-4646-a978-d2bcbfcf615b}*SharedItemsImports = 13
+		BashQuotesProgram\BashQuotesProgram\BashQuotesProgram.projitems*{ce65777a-2d85-4d68-8013-c6de14ac1441}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F76F4D-396F-4A57-866F-2B5256514897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F76F4D-396F-4A57-866F-2B5256514897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F76F4D-396F-4A57-866F-2B5256514897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F76F4D-396F-4A57-866F-2B5256514897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE65777A-2D85-4D68-8013-C6DE14AC1441}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {510CAA85-C67B-4F5F-A527-82EA06806CB4}
+	EndGlobalSection
+EndGlobal
